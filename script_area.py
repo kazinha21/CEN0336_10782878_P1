@@ -6,13 +6,13 @@ import sys
 #Testando o número de argumentos
 if len(sys.argv) == 3: 
 
-#Inserindo dois número inteiros
+#Inserindo dois arugumentos
     numero1 = sys.argv[1]
     numero2 = sys.argv[2]
 
-#Verificando se os números são inteiros, positivos e menores que 500
+#Verificando se os argumentos são números inteiros, positivos e menores que 500
     if numero1.isdigit() and numero2.isdigit():
-        numero1 = int(numero1) #Transformando os dados de strings para inteiros 
+        numero1 = int(numero1) #Transformando os dados de strings da linha de comando para inteiros 
         numero2 = int(numero2)
         if 0 < numero1 < 500 and 0 < numero2 < 500:
 
